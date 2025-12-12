@@ -1,0 +1,36 @@
+# C3 Build Artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# C3 Compiler Output
+build/
+.build/
+*.bc
+*.ll
+
+# C3 Cache
+.c3c/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug Files
+*.dSYM/
+*.pdb
+
+# Test Output
+test_output/
+*.test
+
+# Dependencies
+lib/
+vendor/
